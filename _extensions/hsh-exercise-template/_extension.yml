@@ -29,3 +29,5 @@ contributes:
         - right=1.5cm
         - marginparsep=0cm
         - marginparwidth=0cm
+      format-resources:
+        - images/hsh-fak4-logo.png
