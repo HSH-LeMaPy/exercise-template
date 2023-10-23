@@ -1,11 +1,9 @@
-\usepackage{cmbright}
+% Provides arev font
+%\usepackage{cmbright}
+\usepackage{mathdesign}
+\usepackage{arev}
 \usepackage[T1]{fontenc}
+
+% Provides packages for styling header and footer
 \usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{\footnotesize{$for(authors)$$it.name.literal$$sep$ \and $endfor$ \\
-	Hochschule Hannover \\
-	Fakultät IV - Wirtschaft und Informatik
-}}
-\fancyhead[R]{\includegraphics[width=0.5cm]{../../Ressourcen/hsh-fak4-logo.png}}
-\fancyfoot[C]{} % Empty center footer
-\fancyfoot[R]{\thepage} % Page numbering for right footer
+\usepackage{titling}

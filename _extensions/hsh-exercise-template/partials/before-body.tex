@@ -1,0 +1,23 @@
+% Show author information and logo in header
+\pagestyle{fancy}
+\fancyhead[L]{\footnotesize{$for(author)$$author$$sep$ \and $endfor$ \\
+$for(affiliations/first)$$it.name$ \\ $it.department$$sep$ \and $endfor$
+}}
+\fancyhead[R]{\includegraphics[width=0.5cm]{hsh-fak4-logo.png}}
+
+% Show page number in footer
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+% Configure the title
+\pretitle{ % make title large and bold
+  \Large\textbf
+}
+\posttitle{}
+\preauthor{} % hide author on first page as it is shown in header
+\postauthor{}
+\predate{} % hide date
+\postdate{}
+
+\setlength{\headsep}{0cm} % less space around the title
+\maketitle

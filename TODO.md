@@ -1,0 +1,3 @@
+- Nur Lösungswerte z.B. 5-7 anzeigen
+- Aufgabennummerierung
+- Relative Pfade ausgehend von der Einzelaufgabe
