@@ -9,6 +9,18 @@ $for(affiliations/first)$$it.name$ \\ $it.department$$sep$ \and $endfor$
 \fancyfoot[C]{}
 \fancyfoot[R]{\thepage}
 
+% Configure section numbering
+\makeatletter
+\renewcommand\sectionlinesformat[4]{
+  \Ifstr{#1}{section}
+    {\@hangfrom{\hskip #2}{#4#3}}
+    {\@hangfrom{\hskip #2}{#4 #3}}
+}
+\makeatother
+\renewcommand\sectionformat{\enskip\thesection\autodot}
+
+\setcounter{section}{$exercise-number$}
+
 % Configure the title
 \pretitle{ % make title large and bold
   \Large\textbf

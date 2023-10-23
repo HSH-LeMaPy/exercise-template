@@ -13,7 +13,10 @@ contributes:
           department: Fakultät IV - Wirtschaft und Informatik
       filters:
         - include-code-files
+      number-sections: true
+      exercise-number: 1
     pdf:
+      pdf-engine: pdflatex
       include-in-header: header.tex
       include-before: \thispagestyle{fancy}
       template-partials:
@@ -21,7 +24,6 @@ contributes:
         - partials/before-body.tex
       documentclass: scrartcl
       papersize: a4paper
-      pdf-engine: pdflatex
       geometry:
         - top=2.5cm
         - bottom=2.5cm
