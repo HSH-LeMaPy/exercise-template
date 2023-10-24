@@ -1,0 +1,6 @@
+---
+exercise-number: 1
+---
+
+### Aufgabe
+{{< include ../../Einzelaufgaben/10_Rechenaufgaben/Nullstellen_bestimmen.qmd >}}

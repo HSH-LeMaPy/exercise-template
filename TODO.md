@@ -1,2 +1,1 @@
 - Nur Lösungswerte z.B. 5-7 anzeigen
-- Relative Pfade ausgehend von der Einzelaufgabe

@@ -1,0 +1,10 @@
+project:
+  output-dir: _output/aufgaben
+  render:
+    - Aufgabenblätter
+  resources:
+    - Anhänge
+
+author: Prof. Dr. Manu Musterperson
+format: hsh-exercise-template-pdf
+logo-path: ../../Ressourcen/logo.png
