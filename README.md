@@ -13,6 +13,10 @@ Folgende Voraussetzungen müssen erfüllt sein:
 3. Python und folgende Pakete: `pip install jupyter matplotlib sympy sympy_plot_backends pandas`
 4. Eine Entwicklungsumgebung z.B. VSCode mit dem Quarto Plugin: https://code.visualstudio.com/ und https://marketplace.visualstudio.com/items?itemName=quarto.quarto
 
+### Erstellen eines neuen Projektes
+
+Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werden, um ein neues Projekt anzulegen: `quarto use template https://gitlab.gwdg.de/hsh-lemapy/quarto-exercise-template/-/archive/main/quarto-exercise-template-main.zip`. Der Befehl erstellt einen Ordner mit dem Namen "quarto-exercise-template-main", der in den Kursnamen umbenannt werden sollte. Der Inhalt des Ordners kann in eine Git-Repository eingecheckt werden.
+
 ### Ordnerstruktur
 
 | Ordner          | Beschreibung                                                                                                                        |
@@ -27,6 +31,10 @@ Folgende Voraussetzungen müssen erfüllt sein:
 
 - `quarto render`: Baut alle Aufgabenblätter und kopiert diese in das Zielverzeichnis
 - `quarto render --profile solved`: Baut alle Aufgabenblätter inkl. Lösungen und kopiert diese in das Zielverzeichnis
+
+### Aktualisieren des Templates
+
+Sollte das Template selbst aktualisiert werden, kann der folgende Befehl genutzt werden, um das Projekt auf das neue Template zu aktualisieren: `quarto update extension https://gitlab.gwdg.de/hsh-lemapy/quarto-exercise-template/-/archive/main/quarto-exercise-template-main.zip`
 
 ## Nützliche Links:
 - https://quarto.org/docs/authoring/markdown-basics.html
