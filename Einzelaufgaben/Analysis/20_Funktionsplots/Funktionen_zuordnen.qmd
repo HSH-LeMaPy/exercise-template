@@ -2,12 +2,12 @@ Ordnen Sie die folgenden Graphen den entsprechenden Gleichungen zu:
 
 {{< embed ../../Einzelaufgaben/Analysis/20_Funktionsplots/Funktionen_zuordnen.ipynb#funktionen >}}
 
-::: {.content-visible unless-profile="lösungen"}
+::: {.content-visible unless-profile="solved"}
 #. $f(x) = (x + 2)^2$
 #. $f(x) = x^2 + 2$
 :::
 
-::: {.content-visible when-profile="lösungen"}
+::: {.content-visible when-profile="solved"}
 #. $f(x) = (x + 2)^2$ **(B)**
 #. $f(x) = x^2 + 2$ **(A)**
 :::

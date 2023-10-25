@@ -1,6 +1,6 @@
 Lösen Sie nach den jeweils gesuchten Variablen auf:
 
-::: {.content-visible unless-profile="lösungen"}
+::: {.content-visible unless-profile="solved"}
 #. $t$ ist gesucht
 
    $K_t=K_0 \cdot (1+i)^t$
@@ -18,7 +18,7 @@ Lösen Sie nach den jeweils gesuchten Variablen auf:
    $\sqrt{x+2}=4$
 :::
 
-::: {.content-visible when-profile="lösungen"}
+::: {.content-visible when-profile="solved"}
 #. $t$ ist gesucht
 
    $K_t=K_0 \cdot (1+i)^t$ $\mid :K_0$

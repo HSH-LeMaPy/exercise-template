@@ -1,9 +1,9 @@
 project:
   output-dir: _output/aufgaben
   render:
-    - Aufgabenblätter
+    - Aufgabenblaetter
   resources:
-    - ./Anhänge
+    - ./Anhang
 
 author: Prof. Dr. Manu Musterperson
 format: hsh-exercise-template-pdf

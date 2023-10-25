@@ -3,7 +3,7 @@ exercise-number: 1
 ---
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/Analysis/10_Rechenaufgaben/Gleichungen_auflösen.qmd >}}
+{{< include ../../Einzelaufgaben/Analysis/10_Rechenaufgaben/Gleichungen_aufloesen.qmd >}}
 
 ### Aufgabe
 {{< include ../../Einzelaufgaben/Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}

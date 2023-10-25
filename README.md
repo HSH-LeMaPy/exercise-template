@@ -20,13 +20,13 @@ Folgende Voraussetzungen müssen erfüllt sein:
 | _output         | Das Zielverzeichnis, in dem die generierten Aufgabenblätter abgelegt werden                                                         |
 | Anhänge         | Dateien, die direkt in das Zielverzeichnis kopiert werden                                                                           |
 | Aufgabenblätter | Definieren den Rahmen für das Aufgabenblatt und referenzieren Einzelaufgaben                                                        |
-| Einzelaufgaben  | Einzelne Aufgaben inkl. Lösungen. Die Aufgaben werden in Kapitel unterteilt und die Lösungen sind per Profil "lösungen" einblendbar |
+| Einzelaufgaben  | Einzelne Aufgaben inkl. Lösungen. Die Aufgaben werden in Kapitel unterteilt und die Lösungen sind per Profil "solved" einblendbar |
 | Ressourcen      | Inhalte wie Bilder, die in den Aufgabenblättern eingebunden werden, aber nicht in das Zielverzeichnis kopiert werden                |
 
 ### Befehle
 
 - `quarto render`: Baut alle Aufgabenblätter und kopiert diese in das Zielverzeichnis
-- `quarto render --profile lösungen`: Baut alle Aufgabenblätter inkl. Lösungen und kopiert diese in das Zielverzeichnis
+- `quarto render --profile solved`: Baut alle Aufgabenblätter inkl. Lösungen und kopiert diese in das Zielverzeichnis
 
 ## Nützliche Links:
 - https://quarto.org/docs/authoring/markdown-basics.html
