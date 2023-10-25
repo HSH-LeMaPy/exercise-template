@@ -19,13 +19,13 @@ Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werde
 
 ### Ordnerstruktur
 
-| Ordner          | Beschreibung                                                                                                                        |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| _output         | Das Zielverzeichnis, in dem die generierten Aufgabenblätter abgelegt werden                                                         |
-| Anhänge         | Dateien, die direkt in das Zielverzeichnis kopiert werden                                                                           |
-| Aufgabenblätter | Definieren den Rahmen für das Aufgabenblatt und referenzieren Einzelaufgaben                                                        |
-| Einzelaufgaben  | Einzelne Aufgaben inkl. Lösungen. Die Aufgaben werden in Kapitel unterteilt und die Lösungen sind per Profil "solved" einblendbar |
-| Ressourcen      | Inhalte wie Bilder, die in den Aufgabenblättern eingebunden werden, aber nicht in das Zielverzeichnis kopiert werden                |
+| Ordner           | Beschreibung                                                                                                                        |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| _output          | Das Zielverzeichnis, in dem die generierten Aufgabenblätter abgelegt werden                                                         |
+| Anhang           | Dateien, die direkt in das Zielverzeichnis kopiert werden                                                                           |
+| Aufgabenblaetter | Definieren den Rahmen für das Aufgabenblatt und referenzieren Einzelaufgaben                                                        |
+| Einzelaufgaben   | Einzelne Aufgaben inkl. Lösungen. Die Aufgaben werden in Kapitel unterteilt und die Lösungen sind per Profil "solved" einblendbar |
+| Ressourcen       | Inhalte wie Bilder, die in den Aufgabenblättern eingebunden werden, aber nicht in das Zielverzeichnis kopiert werden                |
 
 ### Befehle
 
