@@ -1,1 +1,1 @@
-- Nur Lösungswerte z.B. 5-7 anzeigen
+- Lösungen für ausgewählte Aufgaben anzeigen (z.B. 5-7)

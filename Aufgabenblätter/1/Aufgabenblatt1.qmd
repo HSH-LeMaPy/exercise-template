@@ -3,4 +3,7 @@ exercise-number: 1
 ---
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/10_Rechenaufgaben/Nullstellen_bestimmen.qmd >}}
+{{< include ../../Einzelaufgaben/Analysis/10_Rechenaufgaben/Gleichungen_auflösen.qmd >}}
+
+### Aufgabe
+{{< include ../../Einzelaufgaben/Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}

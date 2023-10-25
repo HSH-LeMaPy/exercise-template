@@ -1,24 +1,33 @@
-# Hsh-exercise-template Format
+# HSH Aufgabenblatt Template
 
-## Installing
+Dieses Repository enthält eine Vorlage zum Erstellen von Aufgabenblättern für Kurse an der Hochschule Hannover. Die Aufgaben werden in Quarto geschrieben und können in PDF-Dateien konvertiert werden.
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
+## Quick start
 
-```bash
-quarto use template <github-organization>/hsh-exercise-template
-```
+### Voraussetzungen
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+Folgende Voraussetzungen müssen erfüllt sein:
 
-## Using
+1. Quarto in einer Version >= 1.4: https://github.com/quarto-dev/quarto-cli/releases
+2. TinyTex als LaTeX Distribution: `quarto install tinytex`
+3. Python und folgende Pakete: `pip install jupyter matplotlib sympy sympy_plot_backends pandas`
+4. Eine Entwicklungsumgebung z.B. VSCode mit dem Quarto Plugin: https://code.visualstudio.com/ und https://marketplace.visualstudio.com/items?itemName=quarto.quarto
 
-*TODO*: Describe how to use your format.
+### Ordnerstruktur
 
-## Format Options
+| Ordner          | Beschreibung                                                                                                                        |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| _output         | Das Zielverzeichnis, in dem die generierten Aufgabenblätter abgelegt werden                                                         |
+| Anhänge         | Dateien, die direkt in das Zielverzeichnis kopiert werden                                                                           |
+| Aufgabenblätter | Definieren den Rahmen für das Aufgabenblatt und referenzieren Einzelaufgaben                                                        |
+| Einzelaufgaben  | Einzelne Aufgaben inkl. Lösungen. Die Aufgaben werden in Kapitel unterteilt und die Lösungen sind per Profil "lösungen" einblendbar |
+| Ressourcen      | Inhalte wie Bilder, die in den Aufgabenblättern eingebunden werden, aber nicht in das Zielverzeichnis kopiert werden                |
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+### Befehle
 
-## Example
+- `quarto render`: Baut alle Aufgabenblätter und kopiert diese in das Zielverzeichnis
+- `quarto render --profile lösungen`: Baut alle Aufgabenblätter inkl. Lösungen und kopiert diese in das Zielverzeichnis
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
-
+## Nützliche Links:
+- https://quarto.org/docs/authoring/markdown-basics.html
+- https://github.com/quarto-ext/include-code-files

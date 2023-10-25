@@ -1,0 +1,63 @@
+Lösen Sie nach den jeweils gesuchten Variablen auf:
+
+::: {.content-visible unless-profile="lösungen"}
+#. $t$ ist gesucht
+
+   $K_t=K_0 \cdot (1+i)^t$
+
+#. $i$ ist gesucht
+
+   $K_t=K_0 \cdot (1+i)^t$
+
+#. $x$ ist gesucht
+
+   $(x-7) \cdot (x+2)=0$
+
+#. $x$ ist gesucht
+
+   $\sqrt{x+2}=4$
+:::
+
+::: {.content-visible when-profile="lösungen"}
+#. $t$ ist gesucht
+
+   $K_t=K_0 \cdot (1+i)^t$ $\mid :K_0$
+
+   $\frac{K_t}{K_0}=(1+i)^t$ $\mid \ln$
+
+   $\ln(\frac{K_t}{K_0})=\ln((1+i)^t)$ $\mid$ Logarithmengesetz
+
+   $\ln(\frac{K_t}{K_0})=t \cdot \ln(1+i)$ $\mid :\ln(1+i)$
+
+   $t=\frac{\ln(\frac{K_t}{K_0})}{\ln(1+i)}$
+
+#. $i$ ist gesucht
+
+   $K_t=K_0 \cdot (1+i)^t$ $\mid :K_0$
+
+   $\frac{K_t}{K_0}=(1+i)^t$ $\mid \sqrt[t]{}$
+
+   $\sqrt[t]{\frac{K_t}{K_0}}=1+i$ $\mid -1$
+
+   oder $i=\sqrt[t]{\frac{K_t}{K_0}}-1$
+
+#. $x$ ist gesucht
+
+   $(x-7) \cdot (x+2)=0$
+
+   $x-7=0$
+
+   $x_1=7$
+
+   oder $x+2=0$
+
+   $x_2=-2$
+
+#. $x$ ist gesucht
+
+   $\sqrt{x+2}=4$ $\mid ()^2$
+
+   $x+2=4^2$ $\mid -2$
+
+   $x=14$ 
+:::
