@@ -1,9 +1,14 @@
 ---
 exercise-number: 1
+hide-solutions:
+  101010: false
+  101020: true
 ---
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/Analysis/10_Rechenaufgaben/Gleichungen_aufloesen.qmd >}}
+{{< include ../../Einzelaufgaben/10_Analysis/10_Rechenaufgaben/10_Gleichungen_aufloesen.qmd >}}
+
+{{< pagebreak >}}
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}
+{{< include ../../Einzelaufgaben/10_Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}

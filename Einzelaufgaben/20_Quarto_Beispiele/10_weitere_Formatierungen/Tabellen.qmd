@@ -1,0 +1,3 @@
+Tabellen können aus einer CSV-Datei generiert werden:
+
+{{< embed ../../Einzelaufgaben/20_Quarto_Beispiele/10_weitere_Formatierungen/Tabellen.ipynb >}}

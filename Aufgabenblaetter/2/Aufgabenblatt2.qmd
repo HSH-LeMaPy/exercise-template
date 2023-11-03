@@ -3,7 +3,7 @@ exercise-number: 2
 ---
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/Quarto_Beispiele/10_weitere_Formatierungen/Code_einbetten.qmd >}}
+{{< include ../../Einzelaufgaben/20_Quarto_Beispiele/10_weitere_Formatierungen/Code_einbetten.qmd >}}
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/Quarto_Beispiele/10_weitere_Formatierungen/Tabellen.qmd >}}
+{{< include ../../Einzelaufgaben/20_Quarto_Beispiele/10_weitere_Formatierungen/Tabellen.qmd >}}

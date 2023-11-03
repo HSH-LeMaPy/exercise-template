@@ -26,8 +26,9 @@ contributes:
       papersize: a4paper
       geometry:
         - top=2.5cm
-        - bottom=2.5cm
+        - bottom=2cm
         - left=1.5cm
         - right=1.5cm
+        - headheight=2cm
         - marginparsep=0cm
         - marginparwidth=0cm

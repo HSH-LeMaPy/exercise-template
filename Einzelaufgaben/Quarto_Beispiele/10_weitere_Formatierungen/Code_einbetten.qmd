@@ -1,5 +1,0 @@
-Einbinden von Python-Code aus einer Datei:
-
-```{.python include="../../Einzelaufgaben/Quarto_Beispiele/10_weitere_Formatierungen/Code_einbetten.py"}
-#| eval: false
-```
