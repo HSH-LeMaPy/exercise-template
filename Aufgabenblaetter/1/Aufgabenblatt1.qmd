@@ -8,7 +8,5 @@ hide-solutions:
 ### Aufgabe
 {{< include ../../Einzelaufgaben/10_Analysis/10_Rechenaufgaben/10_Gleichungen_aufloesen.qmd >}}
 
-{{< pagebreak >}}
-
 ### Aufgabe
 {{< include ../../Einzelaufgaben/10_Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}

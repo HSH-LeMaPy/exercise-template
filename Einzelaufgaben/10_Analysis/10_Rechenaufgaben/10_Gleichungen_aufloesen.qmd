@@ -59,5 +59,7 @@ Lösen Sie nach den jeweils gesuchten Variablen auf:
 
    $x+2=4^2$ $\mid -2$
 
-   $x=14$ 
+   $x=14$
+
+{{< pagebreak >}}
 :::
