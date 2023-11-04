@@ -2,11 +2,11 @@
 exercise-number: 1
 hide-solutions:
   101010: false
-  101020: true
+  102010: true
 ---
 
 ### Aufgabe
 {{< include ../../Einzelaufgaben/10_Analysis/10_Rechenaufgaben/10_Gleichungen_aufloesen.qmd >}}
 
 ### Aufgabe
-{{< include ../../Einzelaufgaben/10_Analysis/20_Funktionsplots/Funktionen_zuordnen.qmd >}}
+{{< include ../../Einzelaufgaben/10_Analysis/20_Funktionsplots/10_Funktionen_zuordnen.qmd >}}

@@ -1,0 +1,7 @@
+---
+exercise-number: 3
+---
+
+### Aufgabe
+{{< include ../../Einzelaufgaben/10_Analysis/10_Rechenaufgaben/20_Nullstellen_berechnen/Aufgabentext.qmd >}}
+{{< include ../../Einzelaufgaben/10_Analysis/10_Rechenaufgaben/20_Nullstellen_berechnen/Aufgabenwerte.qmd >}}
