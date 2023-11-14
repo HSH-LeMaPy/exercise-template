@@ -1,8 +1,8 @@
 ---
 exercise-number: 1
-hide-solutions:
-  101010: false
-  102010: true
+show-solutions:
+  101010: true
+  102010: false
 ---
 
 ### Aufgabe
