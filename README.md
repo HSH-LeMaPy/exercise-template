@@ -15,7 +15,7 @@ Folgende Voraussetzungen müssen erfüllt sein:
 
 ### Erstellen eines neuen Projektes
 
-Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werden, um ein neues Projekt anzulegen: `quarto use template https://gitlab.gwdg.de/hsh-lemapy/quarto-exercise-template/-/archive/main/quarto-exercise-template-main.zip`. Der Befehl erstellt einen Ordner mit dem Namen "quarto-exercise-template-main", der in den Kursnamen umbenannt werden sollte. Der Inhalt des Ordners kann in eine Git-Repository eingecheckt werden.
+Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werden, um ein neues Projekt anzulegen: `quarto use template hsh-lemapy/exercise-template`.
 
 ### Ordnerstruktur
 
@@ -34,7 +34,7 @@ Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werde
 
 ### Aktualisieren des Templates
 
-Sollte das Template selbst aktualisiert werden, kann der folgende Befehl genutzt werden, um das Projekt auf das neue Template zu aktualisieren: `quarto update extension https://gitlab.gwdg.de/hsh-lemapy/quarto-exercise-template/-/archive/main/quarto-exercise-template-main.zip`
+Sollte das Template selbst aktualisiert werden, kann der folgende Befehl genutzt werden, um das Projekt auf das neue Template zu aktualisieren: `quarto update extension hsh-lemapy/exercise-template`
 
 ## Nützliche Links:
 - https://quarto.org/docs/authoring/markdown-basics.html
