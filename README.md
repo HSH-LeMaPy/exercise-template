@@ -9,7 +9,7 @@ Dieses Repository enthält eine Vorlage zum Erstellen von Aufgabenblättern für
 Folgende Voraussetzungen müssen erfüllt sein:
 
 1. Quarto in einer Version >= 1.4: https://github.com/quarto-dev/quarto-cli/releases
-2. TinyTex als LaTeX Distribution: `quarto install tinytex`
+2. TexLive als LaTeX Distribution: https://www.tug.org/texlive/
 3. Python und folgende Pakete: `pip install jupyter matplotlib sympy sympy_plot_backends pandas`
 4. Eine Entwicklungsumgebung z.B. VSCode mit dem Quarto Plugin: https://code.visualstudio.com/ und https://marketplace.visualstudio.com/items?itemName=quarto.quarto
 
