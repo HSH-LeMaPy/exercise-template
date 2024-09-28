@@ -13,6 +13,11 @@ Folgende Voraussetzungen müssen erfüllt sein:
 3. Python und folgende Pakete: `pip install jupyter matplotlib sympy sympy_plot_backends pandas`
 4. Eine Entwicklungsumgebung z.B. VSCode mit dem Quarto Plugin: https://code.visualstudio.com/ und https://marketplace.visualstudio.com/items?itemName=quarto.quarto
 
+-----------
+<font size=0.8em>
+* Anstelle von TexLive kann auch Tinytex genutzt werden. Dies kann mittels `quarto install tinytex` installiert werden.
+</font>
+
 ### Erstellen eines neuen Projektes
 
 Sobald die Voraussetzungen erfüllt sind, kann der folgende Befehl genutzt werden, um ein neues Projekt anzulegen: `quarto use template hsh-lemapy/exercise-template`.
